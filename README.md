@@ -1,3 +1,3 @@
 ```
-ql repo https://github.com/CoverUp137/Script.git "jx_" "" "ql_"
+ql repo https://github.com/CoverUp137/niuniu100.git "jx_" "" "ql_"
 ```
