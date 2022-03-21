@@ -16,7 +16,7 @@ cfd_start_time = -0.15
 cfd_offset_time = 0.01
 
 # 基础配置勿动
-cfd_url = "https://m.jingxi.com/jxbfd/user/ExchangePrize?strZone=jxbfd&bizCode=jxbfd&source=jxbfd&dwEnv=7&_cfd_t=16PaperMoney=1202203&strPgtimestamp=1647850182151&strPhoneID=f9c605eeec708657&strPgUUNum=443532061fa0abb1c78ced76b1415f0f&_stk=_cfd_t%2CbizCode%2CddwPaperMoney%2CdwEnv%2CdwLvl%2CdwType%2Cptag%2Csource%2CstrPgUUNum%2CstrPgtimestamp%2CstrPhoneID%2CstrPoolName%2CstrZone&_ste=1&h5st=20220321160942170%3B7740459317506246%3B92a36%3Btk02wa8801c3b18nnMW1Fqs6rxP3VlhOMYOoOiBl%2FF2XSWTzsuYby23CTQ1ZB5UQR1yNuoek9IPiot9HdSUBoZxBabm2%3B1a85dc75c08225f0b86ac69f2058c542ee6971981b71010a8870bf237ed9ff28%3B3.0%3B1647850182170&_=1647850182171&sceneval=2&g_login_type=1&callback=jsonpCBKL&g_ty=ls"
+cfd_url = "https://4399.com"
 
 pattern_pin = re.compile(r'pt_pin=([\w\W]*?);')
 pattern_data = re.compile(r'\(([\w\W]*?)\)')
@@ -129,7 +129,7 @@ if __name__ == '__main__':
     print("- 初始化结束\n")
 
     print("- 主逻辑程序进入")
-    UA = "jdpingou;android;5.21.0;appBuild/20535;session/379;pap/JA2019_3111789;ef/1;ep/%7B%22hdid%22%3A%22JM9F1ywUPwflvMIpYPok0tt5k9kW4ArJEU3lfLhxBqw%3D%22%2C%22ts%22%3A1647615567752%2C%22ridx%22%3A-1%2C%22cipher%22%3A%7B%22bd%22%3A%22%22%2C%22ad%22%3A%22ZtvtDtK1ZWVvYzcmENY1Dm%3D%3D%22%2C%22sv%22%3A%22CJS%3D%22%2C%22od%22%3A%22CzvwCJK2ZQY1ENdvEWDsZK%3D%3D%22%2C%22ud%22%3A%22ZtvtDtK1ZWVvYzcmENY1Dm%3D%3D%22%7D%2C%22ciphertype%22%3A5%2C%22version%22%3A%221.2.0%22%2C%22appname%22%3A%22com.jd.pingou%22%7D;Mozilla/5.0 (Linux; Android 12; M2012K11AC Build/SKQ1.211006.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.74 Mobile Safari/537.36".format(
+    UA = "Mozilla/5.0 (Linux; Android 11; PEGT00 Build/RKQ1.200903.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.89 Mobile Safari/537.36 T7/13.3 SP-engine/2.41.0 baiduboxapp/13.3.5.10 (Baidu; P1 11) NABar/1.0".format(
         get_random_str(45, True))
     if u_cookie is None:
         print("未读取到CFD_COOKIE,程序结束")
