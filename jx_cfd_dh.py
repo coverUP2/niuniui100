@@ -85,7 +85,7 @@ def cfd_qq(def_start_time):
     re_list = pattern_data.search(res.text)
     # 进行json转换
     data = json.loads(re_list.group(1))
-    msg = data['sErrMsg']
+    msg = data['story']
     # 根据返回值判断
     if data['iRet'] == 0:
         # 抢到了
