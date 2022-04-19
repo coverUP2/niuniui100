@@ -87,7 +87,7 @@ def cfd_qq(def_start_time):
     data = json.loads(re_list.group(1))
     msg = data['sErrMsg']
     # 根据返回值判断
-    if data['dwtype'] == 3:
+    if data['iRet'] == 0:
         # 抢到了
         msg = "可能抢到了"
         put_envs(u_cookie.get('_id'), u_cookie.get('name'), u_cookie.get('value'), msg)
