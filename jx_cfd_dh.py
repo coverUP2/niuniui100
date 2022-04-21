@@ -129,7 +129,7 @@ if __name__ == '__main__':
     print("- 初始化结束\n")
 
     print("- 主逻辑程序进入")
-    UA = "jdpingou;android;5.21.0;appBuild/20535;session/379;pap/JA2019_3111789;ef/1;ep/%7B%22hdid%22%3A%22JM9F1ywUPwflvMIpYPok0tt5k9kW4ArJEU3lfLhxBqw%3D%22%2C%22ts%22%3A1647615567752%2C%22ridx%22%3A-1%2C%22cipher%22%3A%7B%22bd%22%3A%22%22%2C%22ad%22%3A%22ZtvtDtK1ZWVvYzcmENY1Dm%3D%3D%22%2C%22sv%22%3A%22CJS%3D%22%2C%22od%22%3A%22CzvwCJK2ZQY1ENdvEWDsZK%3D%3D%22%2C%22ud%22%3A%22ZtvtDtK1ZWVvYzcmENY1Dm%3D%3D%22%7D%2C%22ciphertype%22%3A5%2C%22version%22%3A%221.2.0%22%2C%22appname%22%3A%22com.jd.pingou%22%7D;Mozilla/5.0 (Linux; Android 12; M2012K11AC Build/SKQ1.211006.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.74 Mobile Safari/537.36".format(
+    UA = "jdpingou;android;5.23.0;appBuild/20910;session/158;pap/JA2019_3111789;ef/1;ep/%7B%22hdid%22%3A%22JM9F1ywUPwflvMIpYPok0tt5k9kW4ArJEU3lfLhxBqw%3D%22%2C%22ts%22%3A1650561305070%2C%22ridx%22%3A-1%2C%22cipher%22%3A%7B%22bd%22%3A%22%22%2C%22ad%22%3A%22Y2TvCWOnEJKnZWY0DzS3ZK%3D%3D%22%2C%22sv%22%3A%22CJK%3D%22%2C%22od%22%3A%22%22%2C%22ud%22%3A%22Y2TvCWOnEJKnZWY0DzS3ZK%3D%3D%22%7D%2C%22ciphertype%22%3A5%2C%22version%22%3A%221.2.0%22%2C%22appname%22%3A%22com.jd.pingou%22%7D;Mozilla/5.0 (Linux; Android 10; Redmi 4 Build/QQ3A.200805.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.198 Mobile Safari/537.36".format(
         get_random_str(45, True))
     if u_cookie is None:
         print("未读取到CFD_COOKIE,程序结束")
