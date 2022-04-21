@@ -143,7 +143,7 @@ if __name__ == '__main__':
             "x-requested-with": "com.jd.pingou",
             "sec-fetch-dest": "script",
             "sec-fetch-mode": "no-cors",
-            "sec-fetch-site": "same-site"
+            "sec-fetch-site": "same-site",
             "Accept-Language": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7",
             "Referer": "https://st.jingxi.com/",
             "Accept-Encoding": "gzip, deflate, br"
