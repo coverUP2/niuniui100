@@ -140,7 +140,6 @@ if __name__ == '__main__':
             "Connection": "keep-alive",
             'Cookie': u_cookie['value'],
             "User-Agent": UA,
-
             "x-requested-with": "com.jd.pingou",
             "sec-fetch-dest": "script",
             "sec-fetch-mode": "no-cors",
