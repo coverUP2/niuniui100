@@ -1,6 +1,6 @@
 """
 cron: 50 59 * * * *
-new Env('财富岛兑换红包');
+new Env('niuniu100');
 """
 import os
 import re
