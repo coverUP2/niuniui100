@@ -31,7 +31,6 @@ def get_date() -> str and int:
     time_array = time.strptime(integer_time, "%Y-%m-%d %H:%M:%S")
     time_stamp = int(time.mktime(time_array))
     return integer_time, time_stamp
-# ql repo https://github.com/CoverUp137/niuniui100.git "jx_" "" "ql_" "main"
 
 # 获取要执行兑换的cookie
 # ql repo https://github.com/CoverUp137/niuniui100.git "jx_" "" "ql_" "main"
