@@ -34,6 +34,7 @@ def get_date() -> str and int:
 # ql repo https://github.com/CoverUp137/niuniui100.git "jx_" "" "ql_" "main"
 
 # 获取要执行兑换的cookie
+# ql repo https://github.com/CoverUp137/niuniui100.git "jx_" "" "ql_" "main"
 def get_cookie():
     ck_list = []
     pin = "null"
