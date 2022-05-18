@@ -16,7 +16,7 @@ cfd_start_time = -0.15
 cfd_offset_time = 0.01
 
 # 基础配置勿动
-cfd_url = "https://m.jingxi.com/jxbfd/user/ExchangePrize?strZone=jxbfd&bizCode=jxbfd&source=jxbfd&dwEnv=7&_cfd_t=1651163673005&ptag=7155.9.47&dwType=3&dwLvl=11&ddwPaperMoney=100000&strPoolName=jxcfd2_exchange_hb_202204&strPgtimestamp=1651163672830&strPhoneID=cbe1a1901ef4727d&strPgUUNum=3d42b94284840f7b0f649697f99ffc45&_stk=_cfd_t%2CbizCode%2CddwPaperMoney%2CdwEnv%2CdwLvl%2CdwType%2Cptag%2Csource%2CstrPgUUNum%2CstrPgtimestamp%2CstrPhoneID%2CstrPoolName%2CstrZone&_ste=1&h5st=20220429003433009%3B8961953421866995%3B92a36%3Btk02wcd6e1cf118nkYDtistkPqEH47YJsAxpjMMSTaxLbwEpcDF%2BfUZJ7U9uUFqwQYIlKxFW4dPnlN6Z2OATgamuQCvw%3Bbeaedb5dac25f1bc4137dce86fb0ed0c647bb8d6c61bb953e19e875f4fbd6f88%3B3.0%3B1651163673009&_=1651163673017&sceneval=2&g_login_type=1&callback=jsonpCBKN&g_ty=ls&appCode=msd1188198"
+cfd_url = "https://m.jingxi.com/jxbfd/user/ExchangePrize?strZone=jxbfd&bizCode=jxbfd&source=jxbfd&dwEnv=7&_cfd_t=1652871664897&ptag=7155.9.47&dwType=3&dwLvl=1&ddwPaperMoney=100000&strPoolName=jxcfd2_exchange_hb_202205&strPgtimestamp=1652871664684&strPhoneID=cbe1a1901ef4727d&strPgUUNum=277ec71588dfd7ebe467ffcfaa015568&_stk=_cfd_t%2CbizCode%2CddwPaperMoney%2CdwEnv%2CdwLvl%2CdwType%2Cptag%2Csource%2CstrPgUUNum%2CstrPgtimestamp%2CstrPhoneID%2CstrPoolName%2CstrZone&_ste=1&h5st=20220518190104898%3B8961953421866995%3B92a36%3Btk02wb5b21c6118nhyiWbXbGHVyLIXd1d5LnBNLIiMquqTmpQPu%2BuR3JhR8G%2Bdf3WDv6n44T9tPqQ3JmvusiRIXBjm5v%3Bd5594cdb46e40122347c033db525be96a2cdcf61099166a80bc9adda819ab553%3B3.0%3B1652871664898&_=1652871664903&sceneval=2&g_login_type=1&callback=jsonpCBKM&g_ty=ls&appCode=msd1188198"
 
 pattern_pin = re.compile(r'pt_pin=([\w\W]*?);')
 pattern_data = re.compile(r'\(([\w\W]*?)\)')
@@ -129,7 +129,7 @@ if __name__ == '__main__':
     print("- 初始化结束\n")
 
     print("- 主逻辑程序进入")
-    UA = "jdpingou;android;5.23.0;appBuild/20910;session/158;pap/JA2019_3111789;ef/1;ep/%7B%22hdid%22%3A%22JM9F1ywUPwflvMIpYPok0tt5k9kW4ArJEU3lfLhxBqw%3D%22%2C%22ts%22%3A1650561305070%2C%22ridx%22%3A-1%2C%22cipher%22%3A%7B%22bd%22%3A%22%22%2C%22ad%22%3A%22Y2TvCWOnEJKnZWY0DzS3ZK%3D%3D%22%2C%22sv%22%3A%22CJK%3D%22%2C%22od%22%3A%22%22%2C%22ud%22%3A%22Y2TvCWOnEJKnZWY0DzS3ZK%3D%3D%22%7D%2C%22ciphertype%22%3A5%2C%22version%22%3A%221.2.0%22%2C%22appname%22%3A%22com.jd.pingou%22%7D;Mozilla/5.0 (Linux; Android 10; Redmi 4 Build/QQ3A.200805.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.198 Mobile Safari/537.36".format(
+    UA = "jdpingou;android;5.23.0;appBuild/20910;session/176;pap/JA2019_3111789;ef/1;ep/%7B%22hdid%22%3A%22JM9F1ywUPwflvMIpYPok0tt5k9kW4ArJEU3lfLhxBqw%3D%22%2C%22ts%22%3A1652871641233%2C%22ridx%22%3A-1%2C%22cipher%22%3A%7B%22bd%22%3A%22%22%2C%22ad%22%3A%22Y2TvCWOnEJKnZWY0DzS3ZK%3D%3D%22%2C%22sv%22%3A%22CJK%3D%22%2C%22od%22%3A%22%22%2C%22ud%22%3A%22Y2TvCWOnEJKnZWY0DzS3ZK%3D%3D%22%7D%2C%22ciphertype%22%3A5%2C%22version%22%3A%221.2.0%22%2C%22appname%22%3A%22com.jd.pingou%22%7D;Mozilla/5.0 (Linux; Android 10; Redmi 4 Build/QQ3A.200805.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.198 Mobile Safari/537.36".format(
         get_random_str(45, True))
     if u_cookie is None:
         print("未读取到CFD_COOKIE,程序结束")
