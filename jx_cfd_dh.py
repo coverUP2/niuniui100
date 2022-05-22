@@ -62,8 +62,8 @@ def get_config():
         start_time = float(start_dist.get('value'))
         print('从环境变量中载入时间变量[{}]'.format(start_time))
     else:
-        start_time = cfd_start_time
-        u_data = post_envs('CFD_START_TIME', str(start_time), '财富岛兑换时间配置,自动生成,勿动')
+        start_time = cfd1_start_time
+        u_data = post_envs('CFD1_START_TIME', str(start_time), '财富岛兑换时间配置,自动生成,勿动')
         if len(u_data) == 1:
             start_dist = u_data[0]
         print('从默认配置中载入时间变量[{}]'.format(start_time))
