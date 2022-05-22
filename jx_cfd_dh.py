@@ -1,6 +1,6 @@
 """
 cron: 50 59 * * * *
-new Env('财富岛兑换红包');
+new Env('财富岛兑换');
 """
 import os
 import re
@@ -38,7 +38,7 @@ def get_cookie():
     ck_list = []
     pin = "null"
     cookie = None
-    cookies = get_envs("CFD_COOKIE")
+    cookies = get_envs("CFD1_COOKIE")
     for ck in cookies:
         if ck.get('status') == 0:
             ck_list.append(ck)
@@ -56,7 +56,7 @@ def get_cookie():
 # 获取配置参数
 def get_config():
     start_dist = {}
-    start_times = get_envs("CFD_START_TIME")
+    start_times = get_envs("CFD1_START_TIME")
     if len(start_times) >= 1:
         start_dist = start_times[0]
         start_time = float(start_dist.get('value'))
